@@ -1,4 +1,8 @@
 /* Your Website Styles */
+a{
+	text-decoration: none;
+}
+
 body {
 	background: url("../img/bg.png");
 	color: #b2b2b2;
