@@ -1,11 +1,34 @@
 /* Your Website Styles */
-a{
-	text-decoration: none;
+a:link {
+	color: #b2b2b2;
+	font-family: 'Nunito' normal, sans-serif;
+    text-decoration: none;
+}
+
+a:visited {
+	
+}
+
+a:focus {
+	border: 10px lime solid
+}
+
+a:hover {
+	background: lime;
+	color: black;
+}
+
+a:active {
+	
 }
 
 body {
 	background: url("../img/bg.png");
 	color: #b2b2b2;
+}
+
+div.rfloat {
+	float: right;
 }
 
 h1 {
@@ -16,6 +39,19 @@ h2 {
 	font-family: 'Nunito' bold, sans-serif;
 }
 
+nav {
+
+}
+
 p {
 	font-family: 'Nunito' normal, sans-serif;
+}
+
+ul.nav li {
+  display: block;
+  font-family: 'Nunito' normal, sans-serif;
+  float: left;
+  list-style: none;
+  margin-right: 40px;
+  margin-top: 20px;
 }
