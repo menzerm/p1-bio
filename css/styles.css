@@ -52,6 +52,5 @@ ul.nav li {
   font-family: 'Nunito' normal, sans-serif;
   float: left;
   list-style: none;
-  margin-right: 40px;
-  margin-top: 20px;
+  margin: 0px 40px 20px 0px;
 }
