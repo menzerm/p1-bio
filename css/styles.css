@@ -1,9 +1,17 @@
 /* Your Website Styles */
 body {
 	background: url("../img/bg.png");
+	color: #b2b2b2;
 }
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+h1 {
+	font-family: 'Nunito' bold, sans-serif;
+}
+
+h2 {
+	font-family: 'Nunito' bold, sans-serif;
+}
+
+p {
+	font-family: 'Nunito' normal, sans-serif;
 }
