@@ -1,22 +1,23 @@
 /* Your Website Styles */
 a:link {
 	background: transparent;
-	color: #b2b2b2;
+    color: #b2b2b2;
 	font-family: 'Nunito' normal, sans-serif;
     text-decoration: none;
 }
 
 a:visited {
-	
+	background: transparent;
+    color: #b2b2b2;
 }
 
 a:focus {
-	border: 10px lime solid
+	border: 3px lime solid
 }
 
 a:hover {
-	background: lime;
-	color: black;
+  background: lime;
+  color: black;
 }
 
 a:active {
@@ -32,12 +33,12 @@ div.rfloat {
 	float: right;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Nunito' bold, sans-serif;
 }
 
-h2 {
-	font-family: 'Nunito' bold, sans-serif;
+hr {
+	color: #b2b2b2;
 }
 
 p.copy {
@@ -55,7 +56,8 @@ ul.nav li {
   height:30px;
   line-height: 30px;
   list-style: none;
-  margin: -3px 0px 20px 40px;
+  margin: -13px 0px 10px 30px;
+  padding: 10px;
 }
 
 ul {
