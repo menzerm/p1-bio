@@ -40,7 +40,9 @@ h2 {
 	font-family: 'Nunito' bold, sans-serif;
 }
 
-
+p.copy {
+	text-align: center;
+}
 
 p {
 	font-family: 'Nunito' normal, sans-serif;
