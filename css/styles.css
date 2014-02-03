@@ -1,14 +1,9 @@
-/* Your Website Styles */
-a:link {
+a:link,
+a:visited {
 	background: transparent;
     color: #b2b2b2;
 	font-family: 'Nunito' normal, sans-serif;
     text-decoration: none;
-}
-
-a:visited {
-	background: transparent;
-    color: #b2b2b2;
 }
 
 a:focus {
