@@ -1,55 +1,55 @@
 a:link,
 a:visited {
 	background: transparent;
-    color: #b2b2b2;
+    color: #23f7f7;
 	font-family: 'Nunito' normal, sans-serif;
     text-decoration: none;
 }
 
 a:focus {
-	border: 3px lime solid
+	border: 3px #23f7f7 solid
 }
 
 a:hover {
-  color: lime;
-}
-
-a:active {
-	
+	color: #6abd45;
 }
 
 body {
-	background: url("../img/bg.png");
+	background: url('../img/bg.png');
 	color: #b2b2b2;
+	font-family: 'Nunito', sans-serif;
 }
 
-/*space to right of nav*/
-
-div.rfloat {
-	float: right;
-	margin: 0 0 0 0
+footer {
+	color: #6abd45;
+	font-size: .5em;
+	text-align: center;
 }
 
-
-.globalnav {
-	background: url("../img/nav.jpg");
-	left: 0;
-	line-height: 5px;
-	position: fixed;
-	top: 0;
-	white-space: nowrap;
-	width: 100%;
-	z-index: 1;
+html {
+  font-size: 62.5%;
 }
 
-h1 {
-	margin-top: -5px;
-	position: fixed;
-	z-index:2;
+h2, h3, h4 {
+  color: #b2b2b2;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: -.75em;
 }
 
-h1, h2 {
-	font-family: 'Nunito' bold, sans-serif;
+h1,h2 {
+	color: #6abd45;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 0.8em;
 }
 
 hr {
@@ -60,25 +60,33 @@ img {
 	padding-top: 5%;
 }
 
-p.copy {
-	text-align: center;
-}
-
 p {
 	font-family: 'Nunito' normal, sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
 }
 
-
-ul.nav li {
-  display: block;
-  font-family: 'Nunito' normal, sans-serif;
-  float: left;
-  height:30px;
-  line-height: 30px;
-  list-style: none;
-  margin: -10px 0px 0px 30px;
+nav {
+	font-size: .75em;
+	text-transform: uppercase;
 }
 
+nav a:link,
+nav a:visited {
+	color: #b2b2b2;
+	padding: 10px 10px 10px 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+  color: #6abd45;
+}
+
+nav li {
+	float: right;
+	list-style: none;
+	margin: 2px -13px 0 33px
+}
 
 ul {
 	list-style: none;
