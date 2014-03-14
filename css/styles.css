@@ -1,6 +1,5 @@
 a:link,
 a:visited {
-	background: transparent;
     color: #23f7f7;
 	font-family: 'Nunito' normal, sans-serif;
     text-decoration: none;
@@ -15,7 +14,7 @@ a:hover {
 }
 
 body {
-	background: url('../img/bg.png');
+	background: url("../img/bg.png");
 	color: #b2b2b2;
 	font-family: 'Nunito', sans-serif;
 }
@@ -24,10 +23,6 @@ footer {
 	color: #6abd45;
 	font-size: .5em;
 	text-align: center;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 h2, h3, h4 {
@@ -67,7 +62,7 @@ p {
 }
 
 nav {
-	font-size: .75em;
+	font-size: 1.05em;
 	text-transform: uppercase;
 }
 
