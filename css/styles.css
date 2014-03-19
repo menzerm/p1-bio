@@ -51,10 +51,6 @@ hr {
 	color: #b2b2b2;
 }
 
-img {
-	padding-top: 5%;
-}
-
 p {
 	font-family: 'Nunito' normal, sans-serif;
 	font-size: 1em;
@@ -86,4 +82,11 @@ nav li {
 
 ul {
 	list-style: none;
+}
+
+.logo img {
+	border-radius: 0;
+	display: inline;
+	height: 5em;
+	margin-top: -2em;
 }
