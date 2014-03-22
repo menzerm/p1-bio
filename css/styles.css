@@ -58,6 +58,10 @@ p {
 	line-height: 1.5;
 }
 
+.me img {
+  width: 100%;
+}
+
 .mini {
   display: none;
 }
